@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="ms-design-extensionType" content="Search" />
+    <title>Search Contract</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/searchResults.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- This template is used to display each item in the ListView declared
+         below. -->
+    <div class="itemtemplate" data-win-control="WinJS.Binding.Template">
+        <div class="item">
+            <img class="item-image" src="images/icon_orten.png"/>
+            <div class="item-content win-type-ellipsis" data-win-bind="innerHTML: name">
+            </div>
+        </div>
+    </div>
+
+    <!-- The content that will be loaded and displayed. -->
+    <div class="searchResults fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <div class="titlearea">
+                <h1 class="pagetitle win-type-ellipsis"></h1>
+                <h2 class="pagesubtitle win-type-ellipsis"></h2>
+            </div>
+        </header>
+        <section aria-label="Main content" role="main">
+            <progress id="searchProgress"></progress>
+            <div class ="errors">
+                <div class="noresultsmessage"> <p data-win-res="{textContent: 'address_not_found'}"></div>
+                <div class="errormessage"> <p data-win-res="{textContent: 'search_not_available'}"></div>
+            </div>
+            <div class="resultslist win-selectionstylefilled" aria-label="Search results" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'none' }"></div>
+        </section>
+    </div>
+
+    <!--This div will never become visible. It is however required for the Geocoding API-->
+    <div id="mapDummy" style="display: none"> </div>
+</body>
+</html>

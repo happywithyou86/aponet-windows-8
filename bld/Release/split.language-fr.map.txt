@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-fr"
+"ResourceDimensions"		"language-fr-ch"
+"ResourceDimensions"		"language-fr-ca"
+"ResourceDimensions"		"language-fr-be"
+
+[Files]
+"C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bld\Release\split.language-fr.pri"			"resources.pri"

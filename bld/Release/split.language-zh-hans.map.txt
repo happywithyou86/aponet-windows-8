@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-zh-hans"
+"ResourceDimensions"		"language-zh-cn"
+
+[Files]
+"C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bld\Release\split.language-zh-hans.pri"			"resources.pri"

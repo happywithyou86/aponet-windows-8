@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Apotheken</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <!-- Apotheken references -->
+    <link href="/css/mapPage.css" rel="stylesheet" />
+    <script src="/js/webServiceTools.js"></script>
+    <script src="/js/mapPage.js"></script>
+</head>
+<body>
+    <div id="mapContainer">        
+        <div id="apothekenListViewTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+            <div class="listItemTemplate">
+                <h3 class="name" data-win-bind="innerText: name"></h3>
+                <h4 class="distance">Entfernung: <span data-win-bind="innerText: distance"></span> km</h4>
+            </div>
+        </div>  
+            
+        <div class="mapOverlay">
+            <progress id="retrievingDataProgress"></progress>
+            <div id="apothekenListView" 
+                class="win-selectionstylefilled"
+                data-win-control="WinJS.UI.ListView" 
+                data-win-options="{
+                    itemTemplate: select('#apothekenListViewTemplate'), 
+                    selectionMode: WinJS.UI.SelectionMode.single, 
+                    tapBehavior: WinJS.UI.TapBehavior.directSelect, 
+                    swipeBehavior: 'none', 
+                    layout: { type: WinJS.UI.GridLayout } 
+                }">
+            </div>
+        </div>
+
+        <div id="apothekenDetails" class="apothekenDetails">
+			<div class="section">
+				<button title="Information zur Apotheke schließen" class="win-backbutton" id="closeDetailsButton" aria-label="Back" type="button" data-win-res="{title: 'closeDetailsButton_tooltip'}"></button>
+			</div>
+			<div class="section name">				
+				<span class="detailName" id="detailName">Cecilien-Apotheke</span><br/>
+				<span class="dataField"> Entfernung: <span class="detailDistance" id="detailDistance">3.46</span> km </span>
+				<br/>
+				<button title="Adresse der Apotheke zu Kontakten hinzufügen" class="button top" id="addContactButton" data-win-res="{textContent: 'addContactButton_label', title: 'addContactButton_tooltip'}">Kontakt hinzufügen</button>
+				<br/>
+				<button title="Wegbeschreibung auf Bing anzeigen" class="button" id="drivingDirectionsButton" data-win-res="{textContent: 'drivingDirectionsButton_label', title: 'drivingDirectionsButton_tooltip'}">Route berechnen</button>
+			</div>
+			<div class="section centre">
+				<p>
+					<span class="heading">Adresse</span>
+					<span id="detailStreet" class="dataField">Gaudystr. 1</span><br>
+					<span id="detailCity" class="dataField">10437 Berlin</span><br>					
+				</p>
+				<p>
+					<span class="heading">Telefon</span>
+					<span id="detailTelephone" class="dataField">030 4497237</span>
+				</p>
+			</div>
+			<div class="section notdienst">
+				<p>	
+					<span class="heading">Notdienstzeiten</span>
+					<span class="dataField">von <span id="detailNotdienstStartDay">15.10.2012</span></span>
+					<span class="time"><span id="detailNotdienstStartTime">09:00</span> Uhr</span>
+					<br/>
+					<span class="dataField">bis <span id="detailNotdienstEndDay">16.10.2012</span></span> 
+					<span class="time"><span id="detailNotdienstEndTime">09:00</span> Uhr</span>
+				</p>				
+			</div>
+		</div>
+        <div id="mapDiv"></div>
+        <div id="zoomInDiv" class="zoom zoomIn" data-win-res="{title: 'zoom_in_tooltip'}">+</div>
+        <div id="zoomOutDiv" class="zoom zoomOut" data-win-res="{title: 'zoom_out_tooltip'}">-</div>
+    </div>
+    
+    <div id="locationErrorDiv" class="locationError">
+        <h2 id="locationErrorHeading" data-win-res="{textContent: 'error_location_unavailable_title'}"></h2>
+        <p id="locationErrorDetails" class="locationErrorDetails" data-win-res="{textContent: 'error_location_unavailable_description'}"></p>
+    </div>
+</body>
+</html>

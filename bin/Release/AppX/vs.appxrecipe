@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BERCLI00113</Machine>
+    <WindowsUser>roxana.bucura</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ApertoMoveGmbH.ApothekenderABDA</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bld\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>21C2F8018023D84B876AB08D38A4A004E8E7FBBE1EF575B6DBB6E183155F38A7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ApertoMoveGmbH.ApothekenderABDA_1.1.0.2_neutral__xhrs3ps7xwec8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ApertoMoveGmbH.ApothekenderABDA_xhrs3ps7xwec8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ApertoMoveGmbH.ApothekenderABDA</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.2</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-26T13:56:05.502</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\packages\WindowsMapsHelper.1.0.0\lib\winrt45\WindowsMapsHelper.winmd">
+      <PackagePath>WindowsMapsHelper.winmd</PackagePath>
+      <Modified>2014-05-22T08:34:46.469</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\1x1.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\1x1.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_l.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_l.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_r.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\arrow_page_r.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b00.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b00.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b05.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b05.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b10.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b10.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b15.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b15.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b20.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b20.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b25.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b25.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b30.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b30.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b35.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b35.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b40.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b40.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b45.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b45.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\b50.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\b50.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y00.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y00.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y05.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y05.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y10.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y10.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y15.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y15.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y20.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y20.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y25.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y25.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y30.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y30.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y35.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y35.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y40.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y40.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y45.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y45.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\MSNRR\y50.gif">
+      <PackagePath>Bing.Maps.JavaScript\images\search\MSNRR\y50.gif</PackagePath>
+      <Modified>2014-05-22T08:28:46.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\action_item_bullet.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\action_item_bullet.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search\atrPJfr-fr.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search\atrPJfr-fr.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\beak_only.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\beak_only.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.837</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\beak_only_popup.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\beak_only_popup.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\bear_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_in.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_in.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_in_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_in_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_out.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_out.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\be_zoom_out_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\be_zoom_out_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\bingLogos.png">
+      <PackagePath>Bing.Maps.JavaScript\images\bingLogos.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\bingLogo_fb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\bingLogo_fb.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\border.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\border.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BreadcrumbUnlock.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BreadcrumbUnlock.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BreadcrumbUnlockFocus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BreadcrumbUnlockFocus.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Calendar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Calendar.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\cc_zone.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\cc_zone.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\collapsepanel.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\collapsepanel.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\collections.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\collections.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_E.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_E.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_E.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_E.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_N.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_N.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_N.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_N.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_S.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_S.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_S.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_S.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\compass_BE_W.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\compass_BE_W.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\compass_BE_W.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\compass_BE_W.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\darkinfoboxPointer.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\darkinfoboxPointer.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dark_zoom_bar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dark_zoom_bar.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dark_zoom_thumb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dark_zoom_thumb.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ddBullet.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ddBullet.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\dd_beak_new.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\dd_beak_new.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\delete.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\delete.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\delete_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\delete_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\directions.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\directions.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_expander_closed.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_expander_closed.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_expander_open.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_expander_open.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_disabled.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_car_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_car_selected.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_disabled.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_transit_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_transit_selected.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_disabled.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_disabled.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_tube_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_tube_selected.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\directions_mode_walking_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\directions_mode_walking_selected.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\divider.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\divider.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\dropdown.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\dropdown.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\drop_icon.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\drop_icon.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\enter_roundabout_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\exit_roundabout_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\expandpanel.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\expandpanel.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_end.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_end.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_start.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\flag_start.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\hideminimap.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\hideminimap.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\icn_info15.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\icn_info15.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\keep_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Left_Arrow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Left_Arrow.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\lightinfoboxPointer.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\lightinfoboxPointer.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo2.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_md_gray.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_md_gray.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_no_shadow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_no_shadow.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\logo_no_shadow2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\logo_no_shadow2.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\mapapps.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\mapapps.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\maximize.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\maximize.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\merge_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\minimize.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\minimize.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_dark_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_airplane_light_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_dark_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_bus_light_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.849</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_dark_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_ferry_light_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_dark_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_train_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_train_light_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_tube_maneuver.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_tube_maneuver.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_dark_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light_large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\mode_walk_light_large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nokiaLogos.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nokiaLogos.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\none.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\none.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\notile.png">
+      <PackagePath>Bing.Maps.JavaScript\images\notile.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0dark_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_0light_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55dark_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_55light_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_branddark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_branddark_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_brandlight_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_brandlight_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationdark_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_locationlight_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userdark_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_h.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_h.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_s.png">
+      <PackagePath>Bing.Maps.JavaScript\images\BingTheme\pins\pin_userlight_s.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Infobox\pointer_shadow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Infobox\pointer_shadow.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_dd-via-large.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_dd-via-large.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default_selected.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\poi_desktop_default_selected.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_end.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_end.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_middle.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_middle.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start_walking.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_flag_start_walking.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\poi_search.png">
+      <PackagePath>Bing.Maps.JavaScript\images\poi_search.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\pins\POI_step.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\pins\POI_step.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\poi_traffic_red.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\poi_traffic_red.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\poi_traffic_yellow.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\poi_traffic_yellow.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_Walk_Hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_Walk_Hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_walk_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_walk_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\POI_walk_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\POI_walk_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_aerial.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_aerial.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_auto.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_auto.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_birdseye.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_birdseye.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_cb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_cb.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_os.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_os.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\preview_road.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\preview_road.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\print.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\print.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Reverse.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Reverse.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ReverseHover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ReverseHover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_in.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_in.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_in_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_in_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_out.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_out.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\road_zoom_out_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\road_zoom_out_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\rotate_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\rotate_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_left_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_left_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\rotate_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\rotate_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\rotate_right_hover.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\rotate_right_hover.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\rr.png">
+      <PackagePath>Bing.Maps.JavaScript\images\rr.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_go.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_go.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_icon.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_icon.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\search_icon_aerial.png">
+      <PackagePath>Bing.Maps.JavaScript\images\search_icon_aerial.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\share.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\share.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\showminimap.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\showminimap.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\stay_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\straight.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\straight.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\streetside.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\streetside.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Traffic\tl_key.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Traffic\tl_key.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMajor.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMajor.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMinor.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentMinor.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentModerate.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Traffic\TrafficIncidentModerate.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\transit.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\navV2\transit.png">
+      <PackagePath>Bing.Maps.JavaScript\images\navV2\transit.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_gray.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_gray.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.871</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_white.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\transit\transparent_circle_white.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_left.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_left.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\turn_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.809</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn_right.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\u_turn_right.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\veapiOverlayStyleV2.png">
+      <PackagePath>Bing.Maps.JavaScript\images\veapiOverlayStyleV2.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\ManueverIcons\walk.png">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\ManueverIcons\walk.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\YouAreHereBC.png">
+      <PackagePath>Bing.Maps.JavaScript\images\YouAreHereBC.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.983</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_bar.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_bar.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_minus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_minus.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_plus.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_plus.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\nav\zoom_thumb.png">
+      <PackagePath>Bing.Maps.JavaScript\images\nav\zoom_thumb.png</PackagePath>
+      <Modified>2014-05-22T08:28:46.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\Directions.txt">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\Directions.txt</PackagePath>
+      <Modified>2014-05-22T08:28:46.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\images\Directions\mbingDirections.txt">
+      <PackagePath>Bing.Maps.JavaScript\images\Directions\mbingDirections.txt</PackagePath>
+      <Modified>2014-05-22T08:28:46.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\grab.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\grab.cur</PackagePath>
+      <Modified>2014-05-22T08:28:46.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\grabbing.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\grabbing.cur</PackagePath>
+      <Modified>2014-05-22T08:28:46.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\target.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\target.cur</PackagePath>
+      <Modified>2014-05-22T08:28:46.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\ZoomIn.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\ZoomIn.cur</PackagePath>
+      <Modified>2014-05-22T08:28:46.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\cursors\Zoomout.cur">
+      <PackagePath>Bing.Maps.JavaScript\cursors\Zoomout.cur</PackagePath>
+      <Modified>2014-05-22T08:28:46.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\css\mapcontrol.css">
+      <PackagePath>Bing.Maps.JavaScript\css\mapcontrol.css</PackagePath>
+      <Modified>2014-05-22T08:28:46.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapicore.js">
+      <PackagePath>Bing.Maps.JavaScript\js\veapicore.js</PackagePath>
+      <Modified>2014-05-22T08:28:46.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\AppData\Local\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Bing.Maps.JavaScript\1.313.0825.1\Redist\commonconfiguration\neutral\Bing.Maps.JavaScript\js\veapiModules.js">
+      <PackagePath>Bing.Maps.JavaScript\js\veapiModules.js</PackagePath>
+      <Modified>2014-05-22T08:28:47.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\contactPicker.html">
+      <PackagePath>contactPicker.html</PackagePath>
+      <Modified>2014-05-22T08:22:34.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-05-22T08:59:01.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\mapPage.html">
+      <PackagePath>mapPage.html</PackagePath>
+      <Modified>2014-05-22T08:22:34.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\searchResults.html">
+      <PackagePath>searchResults.html</PackagePath>
+      <Modified>2014-05-22T08:22:34.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\css\contactPicker.css">
+      <PackagePath>css\contactPicker.css</PackagePath>
+      <Modified>2012-11-01T16:42:18.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\css\mapPage.css">
+      <PackagePath>css\mapPage.css</PackagePath>
+      <Modified>2013-01-16T08:18:55.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\css\searchResults.css">
+      <PackagePath>css\searchResults.css</PackagePath>
+      <Modified>2012-10-31T11:57:07.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\apo_marker.png">
+      <PackagePath>images\apo_marker.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\appbar_apotheke.png">
+      <PackagePath>images\appbar_apotheke.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\appbar_empfehlen.png">
+      <PackagePath>images\appbar_empfehlen.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\appbar_notdienst.png">
+      <PackagePath>images\appbar_notdienst.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\check.png">
+      <PackagePath>images\check.png</PackagePath>
+      <Modified>2012-11-01T16:42:18.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\contactpicker_logo.png">
+      <PackagePath>images\contactpicker_logo.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\icon_orten.png">
+      <PackagePath>images\icon_orten.png</PackagePath>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\InfoboxIcon.png">
+      <PackagePath>images\InfoboxIcon.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\InfoboxIcon_hover.png">
+      <PackagePath>images\InfoboxIcon_hover.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\location_marker.png">
+      <PackagePath>images\location_marker.png</PackagePath>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\smalllogo.scale-140.png">
+      <PackagePath>images\smalllogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\splashscreen.scale-140.png">
+      <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-17T09:12:48.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\images\icon_adressfeld.jpg">
+      <PackagePath>images\icon_adressfeld.jpg</PackagePath>
+      <Modified>2012-11-01T16:42:18.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\contactPicker.js">
+      <PackagePath>js\contactPicker.js</PackagePath>
+      <Modified>2012-10-30T09:03:54.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-05-22T09:02:32.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\mapPage.js">
+      <PackagePath>js\mapPage.js</PackagePath>
+      <Modified>2014-05-26T13:56:55.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2012-09-11T14:21:45.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\searchResults.js">
+      <PackagePath>js\searchResults.js</PackagePath>
+      <Modified>2014-05-26T12:46:41.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\js\webServiceTools.js">
+      <PackagePath>js\webServiceTools.js</PackagePath>
+      <Modified>2012-09-28T14:09:19.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2014-05-22T08:34:48.525</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bin\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-26T13:56:04.257</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

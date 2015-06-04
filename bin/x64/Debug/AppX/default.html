@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Apotheken der ABDA</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Bing Map Control references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapiModules.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/webServiceTools.js"></script>
+    <script src="/js/searchResults.js"></script>
+</head>
+<body>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/mapPage.html'}"></div>
+    
+    <!-- App Bar -->
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">        
+        <!-- Notdienst / Regular switcher -->
+        <button 
+            data-win-control="WinJS.UI.AppBarCommand" 
+            data-win-options="{id:'cmdNotdienst', icon:'url(images/appbar_notdienst.png)', selected:true, hidden: true, extraClass: 'mapContext',section:'selection'}"
+            data-win-res="{winControl: {label: 'cmdNotdienst_label', tooltip: 'cmdNotdienst_tooltip'}}">
+        </button>
+        <button 
+            data-win-control="WinJS.UI.AppBarCommand" 
+            data-win-options="{id:'cmdRegular', icon:'url(images/appbar_apotheke.png)', hidden: true, extraClass: 'mapContext', section:'selection'}"
+            data-win-res="{winControl: {label: 'cmdRegular_label', tooltip: 'cmdRegular_tooltip'}}">
+        </button>        
+        <button 
+            data-win-control="WinJS.UI.AppBarCommand" 
+            data-win-options="{id:'cmdUseLocation', icon:'mappin',  hidden: true, extraClass: 'mapContext', section:'global'}"
+            data-win-res="{winControl: {label: 'cmdUseLocation_label', tooltip: 'cmdUseLocation_tooltip'}}">
+        </button>
+        <button 
+            data-win-control="WinJS.UI.AppBarCommand" 
+            data-win-options="{id:'cmdRecommendFlyout', icon:'url(images/appbar_empfehlen.png)', section:'global', type:'flyout', flyout:select('#recommendFlyout')}"
+            data-win-res="{winControl: {label: 'cmdRecommend_label', tooltip: 'cmdRecommend_tooltip'}}">
+        </button>
+    </div>
+
+    <!-- Recommend -->
+    <div id="recommendFlyout" class="flyout" data-win-control="WinJS.UI.Flyout">
+        <p data-win-res="{textContent: 'recommend_us'}"></p>
+        <p data-win-res="{textContent: 'click_recommend'}"></p>
+        <button id="recommendButton" class="recommendButton">Weiterempfehlen</button>
+    </div>
+    
+    <!-- Settings / Impressum -->
+    <div data-win-control="WinJS.UI.SettingsFlyout" aria-label="Impressum flyout" data-win-options="{settingsCommandId:'impressum',width:'narrow'}">
+        <!-- Use either 'win-ui-light' or 'win-ui-dark' depending on the contrast between the header title and background color -->
+        <div class="win-ui-dark win-header" style="background-color:#00b2f0"> <!-- Background color reflects app's personality -->
+            <button type="button" onclick="WinJS.UI.SettingsFlyout.show()" class="win-backbutton"></button>
+            <div class="win-label">Impressum</div>
+        </div>
+        <div class="win-content ">
+            <div class="win-settings-section">
+                <h3>Impressum</h3>
+                <p>Verantwortlich i.S.d. § 5 TMG</p>
+                <p> ABDA - Bundesvereinigung Deutscher Apothekerverbände<br/>
+		            Jägerstr. 49/50<br/>
+		            10117 Berlin
+                </p>
+                <p>
+		            Tel: <span class="tel">030/40004-0</span><br/>	
+		            Fax: 030/40004-598<br/>	
+		            E-Mail: pressestelle@abda.aponet.de
+                </p>
+                <p> Vertreten durch:<br/>
+		            Geschäftsführender Vorstand<br/>
+		            der ABDA
+		        </p>
+                <p> Präsident:<br/>
+		            Heinz-Günter Wolf, Hemmoor
+                </p>
+		        <p> 
+		            Vizepräsident:<br/>
+		            Friedemann Schmidt, Leipzig
+                </p>
+                <p> 
+		            Fritz Becker, Remchingen<br/>
+		            Dr. Christina Bendas, Dresden<br/>
+		            Dr. Rainer Bienfait, Berlin<br/>
+		            Lutz Engelen, Düsseldorf<br/>
+		            Erika Fink, Frankfurt am Main<br/>
+		            Thorsten Gottwald, Münster<br/>
+		            Karin Graf, Heidelberg<br/>
+		            Dr. Peter Homann, Schlüchtern<br/>
+		            Dr. Andreas Kiefer, Koblenz<br/>
+		            Monika Koch, Hartha<br/>
+		            Thomas Preis, Düsseldorf
+                </p>
+                <p> 
+		            Verantwortlich für den Inhalt:
+                </p>
+                <p>  
+		            Dr. Sebastian Schmitz (Hauptgeschäftsführer der ABDA - Bundesvereinigung Deutscher Apothekerverbände)<br/>
+		            Jägerstr. 49/50<br/>
+		            10117 Berlin                
+                </p>
+                <p>  
+		            Tel: 030/40004-0<br/>
+		            Fax: 030/40004-598<br/>
+		            E-Mail: pressestelle@abda.aponet.de
+                </p>
+                <p>  
+		            www.abda.de
+                </p>
+                <p>  
+		            Projektleitung: Angela Pacholke<br/>
+		            E-Mail: a.pacholke@abda.aponet.de
+                </p> 
+                <p> 
+		            Mobile Solutions<br/> 
+		            by aperto move GmbH
+                </p>
+                <p>  
+		            Apotheken v.1.0
+                </p> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

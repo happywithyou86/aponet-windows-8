@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    DIESE PAKETMANIFESTDATEI WIRD DURCH DEN BUILDVORGANG GENERIERT.
+
+    Änderungen an dieser Datei gehen verloren, wenn sie erneut erstellt wird. Um Fehler in dieser Datei zu beheben, bearbeiten Sie die '.appxmanifest'-Quelldatei.
+
+    Weitere Informationen zu Paketmanifestdateien finden Sie unter http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="ApertoMoveGmbH.ApothekenderABDA" Version="1.1.0.5" Publisher="CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>Apotheken der ABDA</DisplayName>
+    <PublisherDisplayName>Aperto Move GmbH</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="DE-DE" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <Extensions>
+        <Extension Category="windows.search" />
+        <Extension Category="windows.contactPicker" />
+      </Extensions>
+      <m2:VisualElements DisplayName="Apotheken der ABDA" Description="Apotheken" BackgroundColor="#FFFFFF" ForegroundText="light" Square150x150Logo="images\logo.png" Square30x30Logo="images\smalllogo.png">
+        <m2:DefaultTile Square70x70Logo="images\icon_adressfeld.jpg"></m2:DefaultTile>
+        <m2:SplashScreen BackgroundColor="#FFFFFF" Image="images\splashscreen.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+    <DeviceCapability Name="location" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+  </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapsHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapOptions" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="VisualStudio" Version="12.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Express 2013 für Windows" />
+    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="12.0.30501.0" />
+    <build:Item Name="Bing.Maps.JavaScript" Version="1.113.0601.2" />
+    <build:Item Name="MakePri.exe" Version="6.3.9600.17029 (winblue_gdr.140219-1702)" />
+  </build:Metadata>
+</Package>

@@ -1,0 +1,47 @@
+﻿
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link rel="stylesheet" href="/css/contactPicker.css" />
+    
+    <script src="/js/contactPicker.js"></script>
+    <script src="/js/webServiceTools.js"></script>
+</head>
+<body>    
+    <div class="container">
+        <div id="noContacts">
+            <p data-win-res="{textContent: 'no_contacts'}"></p>
+            <p data-win-res="{textContent: 'howto_add_contacts'}"></p>
+        </div>
+
+        <div id="contactPickerItemTemplate" data-win-control="WinJS.Binding.Template">
+            <div class="contactPickerItemTemplate">
+                <img class="logo" src="/images/contactpicker_logo.png" />
+                <div>
+                    <span class="name" data-win-bind="innerText: name"></span>
+                    <span class="address"><span data-win-bind ="innerText: street"></span> <span data-win-bind ="innerText: zipcode"></span> <span data-win-bind ="innerText: city"></span> </span>
+                </div>
+            </div>
+        </div>     
+
+        <div id="contactPickerListView" 
+            class="win-selectionstylefilled"
+            data-win-control="WinJS.UI.ListView" 
+            data-win-options="{
+                itemTemplate: select('#contactPickerItemTemplate'), 
+                selectionMode: WinJS.UI.SelectionMode.multi, 
+                tapBehavior: WinJS.UI.TapBehavior.toggleSelect, 
+                swipeBehavior: 'none', 
+                layout: { type: WinJS.UI.GridLayout } 
+            }">
+        </div>
+    </div>
+</body>
+</html>

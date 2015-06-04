@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="3.3" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1 Enterprise" PER_USER_APPLICATION="" PARTIAL_RUN="TRUE" LCID="1031" VALIDATION_TYPE="UI" ReportGenerationTime="22.05.2014 17:05:18" ID="82fccaa52dd50d0903f76a1ca586d14f">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Test der umkehrbaren Neuinstallation" RATIONALE="Eine umkehrbare Neuinstallation ermöglicht es Benutzern, Anwendungen auf ihrem System erfolgreich zu verwalten (bereitzustellen und zu entfernen)." />
+    <REQUIREMENT NUMBER="2" TITLE="Test der standardmäßigen Installation in den richtigen Ordnern" RATIONALE="Windows bietet bestimmte Orte im Dateisystem für die Speicherung von Programmen und Softwarekomponenten, freigegebenen Anwendungsdaten und Anwendungsdaten für einen bestimmten Benutzer." />
+    <REQUIREMENT NUMBER="3" TITLE="Test der digital signierten Dateien" RATIONALE="Mit einer digitalen Authenticode-Signatur können Benutzer sicher sein, dass die Software echt ist. Mit ihr kann auch festgestellt werden, ob eine Datei manipuliert, beispielsweise mit einem Virus infiziert wurde." />
+    <REQUIREMENT NUMBER="4" TITLE="Test der Unterstützung von x64 Windows" RATIONALE="Damit die Kompatibilität mit 64-Bit-Versionen von Windows erhalten bleibt, ist es notwendig, dass Anwendungen 64 Bit oder zumindest die reibungslose Ausführung von 32-Bit-Windows-Anwendungen unter 64 Bit unterstützen." />
+    <REQUIREMENT NUMBER="5" TITLE="Test der Betriebssystemversion-Überprüfung" RATIONALE="Anwendungen dürfen Versionen nicht auf Gleichheit prüfen (== 5.1). Wenn Sie eine bestimmte Funktion benötigen, prüfen Sie, ob die Funktion verfügbar ist. Wenn Sie Windows XP benötigen, prüfen Sie auf Windows XP oder höher (&gt;= 5.1). Auf diese Weise funktioniert Ihr Erkennungscode auch unter zukünftigen Versionen von Windows. Installationsprogramme für Treiber und Module für die Deinstallation sollten nie die Betriebssystemversion überprüfen." />
+    <REQUIREMENT NUMBER="6" TITLE="Test der Benutzerkontensteuerung (UAC)" RATIONALE="Die meisten Anwendungen erfordern zur Laufzeit keine Administratorberechtigungen. Die Ausführung als Standardbenutzer sollte ausreichen. Windows-Anwendungen müssen ein (eingebettetes oder externes) Manifest zur Definition der Ausführungsebene besitzen, mit dem das Betriebssystem die Information erhält, welche Berechtigungen zur Ausführung der Anwendung benötigt werden." />
+    <REQUIREMENT NUMBER="7" TITLE="An System-Neustart-Manager-Meldungen halten" RATIONALE="Bei einem kritischen Herunterfahren wird an Anwendungen, die auf WM_QUERYENDSESSION hin FALSE zurückgeben, WM_ENDSESSION gesendet, und sie werden geschlossen. Anwendungen, deren Zeitlimit als Reaktion auf WM_QUERYENDSESSION abläuft, werden beendet." />
+    <REQUIREMENT NUMBER="8" TITLE="Test des abgesicherten Modus" RATIONALE="Standardmäßig werden die meisten Treiber und Dienste, die nicht mit Windows vorinstalliert wurden, nicht im abgesicherten Modus gestartet. Sie sollten deaktiviert bleiben, sofern sie nicht für grundlegende Systemvorgänge oder für Diagnose und Wiederherstellung benötigt werden." />
+    <REQUIREMENT NUMBER="9" TITLE="Test der Mehrbenutzersitzungen" RATIONALE="Windows-Benutzer sollten in der Lage sein, ohne Konflikte oder Unterbrechungen gleichzeitige Sitzungen auszuführen. Bei Anwendungen muss sichergestellt sein, dass es sich nicht auf ihre normale Funktionalität auswirkt, wenn sie in mehreren Sitzungen lokal oder remote ausgeführt werden. Anwendungseinstellungen und Datendateien sollten nicht benutzerübergreifend beibehalten werden. Privatsphäre und Voreinstellungen eines Benutzers sollten in der Benutzersitzung isoliert sein." />
+    <REQUIREMENT NUMBER="10" TITLE="Test von Abstürzen oder Hängen" RATIONALE="Anwendungsfehler wie Abstürze und Blockaden stellen größere Unterbrechungen für Benutzer dar und sorgen für Frustration. Die Beseitigung dieser Fehler verbessert die Stabilität und Zuverlässigkeit von Anwendungen und bietet Benutzern insgesamt eine bessere Anwendungserfahrung." />
+    <REQUIREMENT NUMBER="11" TITLE="Test der Kompatibilität und Flexibilität" RATIONALE="Wenn Windows ermittelt, dass eine Anwendung einen inkompatiblen Vorgang ausgeführt hat, wird ein Kompatibilitätspatch angewendet und so dafür gesorgt, dass die Anwendung sich richtig verhält. Dies gewährleistet eine positive Benutzererfahrung. Anwendungen sollten sich nicht auf dieses Verhalten verlassen, da sie nur für die ordnungsgemäße Funktion von älteren Anwendungen unter Windows bereitgestellt wird." />
+    <REQUIREMENT NUMBER="12" TITLE="Test der Einhaltung des Pakets" RATIONALE="Dem Paketmanifest fehlten ein oder mehrere erforderliche Attribute." />
+    <REQUIREMENT NUMBER="13" TITLE="Test der bewährten Methoden der Windows-Sicherheit" RATIONALE="Die standardmäßigen Windows-Sicherheitseinstellungen sollten von einer Anwendung nicht geändert werden." />
+    <REQUIREMENT NUMBER="14" TITLE="Test der Windows-Sicherheitsfunktionen" RATIONALE="Anwendungen müssen Windows-Sicherheitsfunktionen übernehmen." />
+    <REQUIREMENT NUMBER="15" TITLE="Test der unterstützten APIs" RATIONALE="Die Anwendung sollte nur auf die APIs verweisen, die vom Windows SDK für Windows Store-Apps zugelassen sind.">
+      <TEST INDEX="38" NAME="Unterstützte APIs" DESCRIPTION="Windows Store-App darf nur unterstützte Plattform-APIs verwenden." EXECUTIONTIME="00h:00m:03s.00ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Test der Leistung" RATIONALE="Die Anwendung sollte beim Start und beim Anhalten als schnell und gut reagierend wahrgenommen werden und dabei im angemessenen Umfang Systemressourcen (CPU, Datei-E/A, Arbeitsspeicher usw.) nutzen, um schnelles Umschalten und Multitasking zwischen vorher nicht geöffneten Anwendungen zu ermöglichen.">
+      <TEST INDEX="50" NAME="Generierung von Bytecode" DESCRIPTION="Die Generierung von Bytecode sollte für Pakete, die eine Windows Store-App mit HTML5 enthalten, erfolgreich abgeschlossen werden können." EXECUTIONTIME="00h:00m:02s.41ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Optimierte Bindungsverweise" DESCRIPTION="Beim Verwenden von Bindungen sollte &quot;WinJS.Binding.optimizeBindingReferences&quot; auf &quot;True&quot; festgelegt werden, um die Speicherauslastung zu optimieren." EXECUTIONTIME="00h:00m:02s.26ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="Test der App-Manifestressourcen" RATIONALE="Das App-Paketmanifest sollte gültige Ressourcen besitzen, die gemäß App-Verpackungsspezifikation und App-Manifestschema in der Datei &quot;resources.pri&quot; definiert sind." />
+    <REQUIREMENT NUMBER="20" TITLE="Test der Debugkonfiguration" RATIONALE="Die App sollte keine Debugbinärdateien installieren." />
+    <REQUIREMENT NUMBER="21" TITLE="Dateicodierungstest" RATIONALE="Pakete, die eine Windows Store-App mit HTML5 enthalten, müssen die richtige Dateicodierung aufweisen." />
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D-Featuretest" RATIONALE="Die App sollte die Direct3D-Funktion ordnungsgemäß verwenden." />
+    <REQUIREMENT NUMBER="23" TITLE="App-Funktionstest" RATIONALE="Pakete, die Sonderfunktionen deklarieren, müssen Begründungen während des Onboarding-Prozesses liefern." />
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime-Metadatenvalidierung" RATIONALE="Metadaten müssen in allen Generierungsquellen konform und konsistent sein." />
+    <REQUIREMENT NUMBER="25" TITLE="Paketintegritätsprüfung" RATIONALE="Überprüfung der Inhalte des App-Pakets auf Korrektheit." />
+    <REQUIREMENT NUMBER="26" TITLE="Unterstützung für hohe DPI-Werte" RATIONALE="Die Anwendung muss als mit DPI-Werten kompatibel festgelegt sein, damit die Benutzeroberfläche in einer Vielzahl von Anzeigeeinstellungen mit hohen DPI-Werten konsistent gut dargestellt wird." />
+    <REQUIREMENT NUMBER="27" TITLE="Ressourcenverwendungstest" RATIONALE="WinJS-Hintergrundaufgaben müssen &quot;close()&quot; aufrufen, um Ressourcen freizugeben." />
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="ApertoMoveGmbH.ApothekenderABDA" Type="Application" Source="AppxPackage" Publisher="CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6" Version="1.1.0.2" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\ApertoMoveGmbH.ApothekenderABDA_1.1.0.2_neutral__xhrs3ps7xwec8" PathEvidenceId="0xa" RNP="0x1" DNP="0xd" EvidenceId="0xa" Id="000070ba0d7864dfd9173af6d704b1a729cc00000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="microsoft.system.package.metadata" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\microsoft.system.package.metadata" RNP="0x9" DNP="0xb" UniqueId="0x30" Id="00003e541c559d426fb695efcdd5e81656905b8a8c18" />
+            <Directory Name="js" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript\js" RNP="0x9" DNP="0xb" UniqueId="0x24" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="js" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0x9" DNP="0xb" UniqueId="0x29" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+            <Directory Name="apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0x9" DNP="0xb" UniqueId="0xb" Id="000088ae2c93f71c7b0a9e195a72cc230bff2941bc51" />
+            <Directory Name="bing.maps.javascript" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript" RNP="0x9" DNP="0xb" UniqueId="0x13" Id="00006a1a97684a506bf977ba006a3130c26493df5df7" />
+          </DirectoryIndicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8">
+              <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+                <Identity Name="ApertoMoveGmbH.ApothekenderABDA" Version="1.1.0.2" Publisher="CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6" ProcessorArchitecture="neutral" />
+                <Properties>
+                  <DisplayName>Apotheken der ABDA</DisplayName>
+                  <PublisherDisplayName>Aperto Move GmbH</PublisherDisplayName>
+                  <Logo>images\storelogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.0</OSMinVersion>
+                  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="DE-DE" />
+                  <Resource m2:Scale="100" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" StartPage="default.html">
+                    <Extensions>
+                      <Extension Category="windows.search" />
+                      <Extension Category="windows.contactPicker" />
+                    </Extensions>
+                    <m2:VisualElements DisplayName="Apotheken der ABDA" Description="Apotheken" BackgroundColor="#7C7C7C" ForegroundText="light" Square150x150Logo="images\logo.png" Square30x30Logo="images\smalllogo.png">
+                      <m2:SplashScreen BackgroundColor="#FFFFFF" Image="images\splashscreen.png" />
+                    </m2:VisualElements>
+                  </Application>
+                </Applications>
+                <Capabilities>
+                  <Capability Name="internetClient" />
+                  <Capability Name="internetClientServer" />
+                  <Capability Name="privateNetworkClientServer" />
+                  <DeviceCapability Name="location" />
+                </Capabilities>
+                <Dependencies>
+                  <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+                </Dependencies>
+                <Extensions>
+                  <Extension Category="windows.activatableClass.inProcessServer">
+                    <InProcessServer>
+                      <Path>CLRHost.dll</Path>
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapsHelper" ThreadingModel="both" />
+                      <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapOptions" ThreadingModel="both" />
+                    </InProcessServer>
+                  </Extension>
+                </Extensions>
+              </Package>
+            </PackageManifest>
+            <BundleManifest PackageFamilyName="ApertoMoveGmbH.ApothekenderABDA_xhrs3ps7xwec8">
+              <Bundle SchemaVersion="2.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+                <Identity Name="ApertoMoveGmbH.ApothekenderABDA" Publisher="CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6" Version="2014.522.1504.262" />
+                <Packages>
+                  <Package Type="application" Version="1.1.0.2" Architecture="neutral" FileName="Apotheken_1.1.0.2_AnyCPU.appx" Offset="59" Size="690121">
+                    <Resources>
+                      <Resource Language="DE-DE" />
+                      <Resource Scale="100" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.2" ResourceId="split.scale-140" FileName="Apotheken_1.1.0.2_scale-140.appx" Offset="690266" Size="34214">
+                    <Resources>
+                      <Resource Scale="140" />
+                    </Resources>
+                  </Package>
+                  <Package Type="resource" Version="1.1.0.2" ResourceId="split.scale-180" FileName="Apotheken_1.1.0.2_scale-180.appx" Offset="724566" Size="38545">
+                    <Resources>
+                      <Resource Scale="180" />
+                    </Resources>
+                  </Package>
+                </Packages>
+              </Bundle>
+            </BundleManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="000036a13749294b83e288a07669736320df586a35a6">
+            <File Name="webServiceTools.js" Id="00009ffa42789860d360e2dc75dbc7debd2106709348" Size="0x2435" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\webservicetools.js" LongPathHash="000026e2964e207b8c2d78642f02a401d748a692e3d8" UniqueId="0x2f" />
+            <File Name="searchResults.js" Id="0000328f63a0845b82d58734d7f8afff1f8620a7b175" Size="0x2036" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\searchresults.js" LongPathHash="000047a0b087afdd312e7b513fb81cd5a011fb954cbd" UniqueId="0x2e" />
+            <File Name="navigator.js" Id="0000d05a747c7319d25a9e84ea45412f109751b074a9" Size="0x18be" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\navigator.js" LongPathHash="00007de92423abb380ac9d61069765cd4f920a404a02" UniqueId="0x2d" />
+            <File Name="S-1-5-21-2441401781-2271236380-1107027755-1001-MergedResources-0.pri" Id="00005a666e41638bdba94a1afff27c03819a95f72a2b" ShortName="S-1-5-~1.PRI" Size="0xa9d0" BinaryType="UNKNOWN" Created="05/22/2014 15:04:57" Modified="05/22/2014 15:04:57" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\microsoft.system.package.metadata" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\microsoft.system.package.metadata\s-1-5-21-2441401781-2271236380-1107027755-1001-mergedresources-0.pri" LongPathHash="0000ea16e2f6e04519ab24cb9dca2579f070bef463fe" UniqueId="0x31" />
+            <File Name="veapiModules.js" Id="000092076f6cd9a3776b6d72824faa6bff03227efb46" Size="0x44be8" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript\js\veapimodules.js" LongPathHash="0000b81d46846db2c32fc53e6d815f0c39be2b9f1f41" UniqueId="0x26" />
+            <File Name="contactPicker.js" Id="0000d126eb7ae49865e51817912f272cdd1d50f727cf" Size="0x1194" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\contactpicker.js" LongPathHash="00004421982c888406b632ed25c533679eeaa3d1397e" UniqueId="0x2a" />
+            <File Name="default.js" Id="0000d0c91934d033f2f1fe5166f13ea38a8b0b284edb" Size="0x1e39" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\default.js" LongPathHash="000021cde2094de8b4331cec812683e91653bc861a18" UniqueId="0x2b" />
+            <File Name="mapPage.js" Id="00000ebf8ff9d647fd3a4d25e4fb7df82f506c6f0c88" Size="0x7b0d" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\js\mappage.js" LongPathHash="0000f1b9f72610c0194a1f652c6a30969668dde06ad5" UniqueId="0x2c" />
+            <File Name="default.html" Id="0000e5b21e292bf2abbb435b42dc9079dfd9568581ed" Size="0x175f" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\default.html" LongPathHash="0000128c29fec31a7f0c144c774f1dda00eab7307286" UniqueId="0xd" />
+            <File Name="contactPicker.html" Id="0000adc318aacb58c5b3191aef0a1ddce0d9555f25ce" Size="0x73c" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\contactpicker.html" LongPathHash="000047eb65ca5417bf2b9924651b5304bbc161552f03" UniqueId="0xc" />
+            <File Name="searchResults.html" Id="0000b1d3ac4bb9843d261e08013b7c3274430056a5aa" Size="0x872" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\searchresults.html" LongPathHash="000058cb69868120d02c0bc9dbefba78b7c5fdfaba8f" UniqueId="0x10" />
+            <File Name="mapPage.html" Id="0000d44f29aaa893aed74231ee51002f6e28865fc5ce" Size="0x1004" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\mappage.html" LongPathHash="0000ab290296ebc20b63efab2d42805ebe6b3a955492" UniqueId="0xe" />
+            <File Name="WindowsMapsHelper.winmd" Id="0000b3cb9c28bac1dbc971927302baf8ea1d0fd94e29" ProductName="WinMapsHelper" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0x0100000000000602" FileVersion="1.0.0.0" Size="0x4c00" SizeOfImage="0xc000" PeHeaderHash="0101baa347a8e8ca68e02dfeeb33168bfd0f955637fb" PeChecksum="0x0" PeImageType="0x14c" PeSubsystem="3" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="WinMapsHelper" InternalName="WindowsMapsHelper.winmdobj" LegalCopyright="Copyright ©  2012" LinkerVersion="11.0" LinkDate="10/10/2012 02:19:10" BinaryType="DOTNETIL" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" OriginalFilename="WindowsMapsHelper.winmdobj" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0x4" DNP="0x5" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\windowsmapshelper.winmd" LongPathHash="00003d2f1e0caa77d97d7532e06c125504b894a2e372" UniqueId="0x11" />
+            <File Name="resources.pri" Id="0000fa1ce50458562ad7b3216b52d0fb0b016c7aee5c" Size="0x177d0" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\resources.pri" LongPathHash="000072741cd9bbd02516f7cdab4c8c085d67ad280084" UniqueId="0xf" />
+            <File Name="veapicore.js" Id="000044da0b9ae30fd215951e32f2fa0e207c3ea7d3a5" Size="0x4a765" BinaryType="UNKNOWN" Created="05/22/2014 14:38:18" Modified="05/22/2014 14:38:18" Path="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\apertomovegmbh.apothekenderabda_1.1.0.2_neutral__xhrs3ps7xwec8\bing.maps.javascript\js\veapicore.js" LongPathHash="00003f7dcfcb514e2028700ba1ea49fc7bd53d97a9f7" UniqueId="0x25" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="000070ba0d7864dfd9173af6d704b1a729cc00000904" AnalysisVersion="1.60" DictionaryVersion="2.16" Type="Package" Id="ApertoMoveGmbH.ApothekenderABDA_1.1.0.2_neutral__xhrs3ps7xwec8">
+      <AitFile ErrorCode="0" Name="mapPage.js" Id="00000ebf8ff9d647fd3a4d25e4fb7df82f506c6f0c88">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.List" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.Resources.getString" />
+          <AitFeature Name="WinJS.Resources.processAll" />
+          <AitFeature Name="WinJS.UI.Animation.enterContent" />
+          <AitFeature Name="WinJS.UI.Animation.exitContent" />
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView" />
+          <AitFeature Name="Windows.ApplicationModel.DataTransfer.HtmlFormatHelper.createHtmlFormat" />
+          <AitFeature Name="Windows.ApplicationModel.Search.SearchPane.getForCurrentView" />
+          <AitFeature Name="Windows.Foundation.Uri" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current.roamingSettings" />
+          <AitFeature Name="Windows.System.Launcher.launchUriAsync" />
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
+          <AitFeature Name="Windows.UI.Popups.UICommand" />
+          <AitFeature Name="document.addEventListener" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.querySelector" />
+          <AitFeature Name="document.removeEventListener" />
+          <AitFeature Name="document.visibilityState" />
+          <AitFeature Name="window.navigator" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="searchResults.js" Id="0000328f63a0845b82d58734d7f8afff1f8620a7b175">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.List" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Resources.processAll" />
+          <AitFeature Name="WinJS.UI.ListView.prototype" />
+          <AitFeature Name="Windows.ApplicationModel" />
+          <AitFeature Name="Windows.ApplicationModel.Search.SearchPane.getForCurrentView" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView.value" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationViewState" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="document.querySelector" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="veapicore.js" Id="000044da0b9ae30fd215951e32f2fa0e207c3ea7d3a5">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="Windows.ApplicationModel" />
+          <AitFeature Name="Windows.ApplicationModel.Resources.Core" />
+          <AitFeature Name="Windows.ApplicationModel.Resources.Core.ResourceManager.current.defaultContext.languages" />
+          <AitFeature Name="Windows.System.UserProfile.GlobalizationPreferences.homeGeographicRegion" />
+          <AitFeature Name="document.addEventListener" />
+          <AitFeature Name="document.attachEvent" />
+          <AitFeature Name="document.body.appendChild" />
+          <AitFeature Name="document.body.removeChild" />
+          <AitFeature Name="document.body.scrollLeft" />
+          <AitFeature Name="document.body.scrollTop" />
+          <AitFeature Name="document.compatMode" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.createElementNS" />
+          <AitFeature Name="document.createEvent" />
+          <AitFeature Name="document.createTextNode" />
+          <AitFeature Name="document.defaultView" />
+          <AitFeature Name="document.defaultView.getComputedStyle" />
+          <AitFeature Name="document.documentElement" />
+          <AitFeature Name="document.documentElement.className" />
+          <AitFeature Name="document.documentElement.clientHeight" />
+          <AitFeature Name="document.documentElement.clientWidth" />
+          <AitFeature Name="document.documentElement.scrollLeft" />
+          <AitFeature Name="document.documentElement.scrollTop" />
+          <AitFeature Name="document.documentMode" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="document.implementation" />
+          <AitFeature Name="document.implementation.hasFeature" />
+          <AitFeature Name="document.namespaces" />
+          <AitFeature Name="document.namespaces.add" />
+          <AitFeature Name="document.removeEventListener" />
+          <AitFeature Name="navigator.geolocation" />
+          <AitFeature Name="navigator.geolocation.getCurrentPosition" />
+          <AitFeature Name="navigator.msPointerEnabled" />
+          <AitFeature Name="navigator.pointerEnabled" />
+          <AitFeature Name="navigator.userAgent" />
+          <AitFeature Name="navigator.userAgent.toLowerCase" />
+          <AitFeature Name="navigator.vendor" />
+          <AitFeature Name="window.clearInterval" />
+          <AitFeature Name="window.clearTimeout" />
+          <AitFeature Name="window.innerHeight" />
+          <AitFeature Name="window.innerWidth" />
+          <AitFeature Name="window.microsoftMapsNetworkCallback" />
+          <AitFeature Name="window.pageXOffset" />
+          <AitFeature Name="window.pageYOffset" />
+          <AitFeature Name="window.setInterval" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="veapiModules.js" Id="000092076f6cd9a3776b6d72824faa6bff03227efb46">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="MSApp.execUnsafeLocalFunction" />
+          <AitFeature Name="Windows.ApplicationModel.Resources.Core.ResourceManager.current.defaultContext.languages" />
+          <AitFeature Name="document.body.appendChild" />
+          <AitFeature Name="document.body.removeChild" />
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.createTextNode" />
+          <AitFeature Name="document.documentElement" />
+          <AitFeature Name="document.getElementById" />
+          <AitFeature Name="window.ActiveXObject" />
+          <AitFeature Name="window.Sys.UI.Behavior" />
+          <AitFeature Name="window.clearInterval" />
+          <AitFeature Name="window.clearTimeout" />
+          <AitFeature Name="window.location.search" />
+          <AitFeature Name="window.location.search.substr" />
+          <AitFeature Name="window.setInterval" />
+          <AitFeature Name="window.setTimeout" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="webServiceTools.js" Id="00009ffa42789860d360e2dc75dbc7debd2106709348">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Promise.timeout" />
+          <AitFeature Name="Windows.Data.Xml.Dom.XmlDocument" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current.roamingSettings" />
+          <AitFeature Name="document.loadXml" />
+          <AitFeature Name="document.selectNodes" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="contactPicker.html" Id="0000adc318aacb58c5b3191aef0a1ddce0d9555f25ce">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.Template" />
+          <AitFeature Name="WinJS.UI.GridLayout" />
+          <AitFeature Name="WinJS.UI.ListView" />
+          <AitFeature Name="WinJS.UI.SelectionMode.multi" />
+          <AitFeature Name="WinJS.UI.TapBehavior.toggleSelect" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="searchResults.html" Id="0000b1d3ac4bb9843d261e08013b7c3274430056a5aa">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.Template" />
+          <AitFeature Name="WinJS.UI.ListView" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="WindowsMapsHelper.winmd" Id="0000b3cb9c28bac1dbc971927302baf8ea1d0fd94e29">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorDllMain" />
+        </AitCategory>
+        <AitCategory Id="DotNet">
+          <AitFeature Name="System.Char" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggableAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerHiddenAttribute..ctor" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute" />
+          <AitFeature Name="System.Diagnostics.DebuggerStepThroughAttribute..ctor" />
+          <AitFeature Name="System.Double" />
+          <AitFeature Name="System.Enum" />
+          <AitFeature Name="System.Exception" />
+          <AitFeature Name="System.Exception..ctor" />
+          <AitFeature Name="System.Func`2" />
+          <AitFeature Name="System.Object" />
+          <AitFeature Name="System.Object..ctor" />
+          <AitFeature Name="System.Object.ToString" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCompanyAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyConfigurationAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyCopyrightAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyDescriptionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyFileVersionAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyProductAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTitleAttribute..ctor" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute" />
+          <AitFeature Name="System.Reflection.AssemblyTrademarkAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncStateMachineAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilationRelaxationsAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.CompilerGeneratedAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext" />
+          <AitFeature Name="System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" />
+          <AitFeature Name="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute..ctor" />
+          <AitFeature Name="System.Runtime.CompilerServices.TaskAwaiter`1" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute" />
+          <AitFeature Name="System.Runtime.InteropServices.ComVisibleAttribute..ctor" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.AsyncInfo" />
+          <AitFeature Name="System.Runtime.InteropServices.WindowsRuntime.AsyncInfo.Run" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute" />
+          <AitFeature Name="System.Runtime.Versioning.TargetFrameworkAttribute..ctor" />
+          <AitFeature Name="System.String" />
+          <AitFeature Name="System.String.Concat" />
+          <AitFeature Name="System.String.Empty" />
+          <AitFeature Name="System.String.Format" />
+          <AitFeature Name="System.String.IsNullOrWhiteSpace" />
+          <AitFeature Name="System.String.Trim" />
+          <AitFeature Name="System.String.TrimStart" />
+          <AitFeature Name="System.Text.StringBuilder" />
+          <AitFeature Name="System.Text.StringBuilder..ctor" />
+          <AitFeature Name="System.Text.StringBuilder.Append" />
+          <AitFeature Name="System.Text.StringBuilder.AppendFormat" />
+          <AitFeature Name="System.Threading.CancellationToken" />
+          <AitFeature Name="System.Threading.Tasks.Task`1" />
+          <AitFeature Name="System.Type" />
+          <AitFeature Name="System.Uri" />
+          <AitFeature Name="System.Uri..ctor" />
+          <AitFeature Name="System.ValueType" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions" />
+          <AitFeature Name="System.WindowsRuntimeSystemExtensions.GetAwaiter" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.Foundation.IAsyncOperation`1" />
+          <AitFeature Name="Windows.Foundation.Metadata.ActivatableAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.ActivatableAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.DefaultAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.DefaultAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.ExclusiveToAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.ExclusiveToAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.GuidAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.GuidAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.StaticAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.StaticAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.VersionAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.VersionAttribute..ctor" />
+          <AitFeature Name="Windows.System.Launcher" />
+          <AitFeature Name="Windows.System.Launcher.LaunchUriAsync" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="navigator.js" Id="0000d05a747c7319d25a9e84ea45412f109751b074a9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Class.define" />
+          <AitFeature Name="WinJS.Namespace.define" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Promise.as" />
+          <AitFeature Name="WinJS.Promise.timeout" />
+          <AitFeature Name="WinJS.UI.Animation.enterPage" />
+          <AitFeature Name="WinJS.UI.Pages.render" />
+          <AitFeature Name="Windows.UI.ViewManagement.ApplicationView" />
+          <AitFeature Name="document.body.onkeypress" />
+          <AitFeature Name="document.body.onkeyup" />
+          <AitFeature Name="document.body.onmspointerup" />
+          <AitFeature Name="document.createElement" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.js" Id="0000d0c91934d033f2f1fe5166f13ea38a8b0b284edb">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.onsettings" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.Navigation" />
+          <AitFeature Name="WinJS.Resources.getString" />
+          <AitFeature Name="WinJS.Resources.processAll" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.populateSettings" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.ActivationKind.contactPicker" />
+          <AitFeature Name="Windows.ApplicationModel.Activation.ActivationKind.search" />
+          <AitFeature Name="Windows.ApplicationModel.DataTransfer.DataTransferManager.getForCurrentView" />
+          <AitFeature Name="Windows.ApplicationModel.DataTransfer.DataTransferManager.showShareUI" />
+          <AitFeature Name="Windows.ApplicationModel.DataTransfer.HtmlFormatHelper.createHtmlFormat" />
+          <AitFeature Name="Windows.ApplicationModel.Search.SearchPane.getForCurrentView" />
+          <AitFeature Name="Windows.Foundation.Uri" />
+          <AitFeature Name="Windows.Storage.Streams.RandomAccessStreamReference.createFromUri" />
+          <AitFeature Name="Windows.System.Launcher.launchUriAsync" />
+          <AitFeature Name="Windows.UI.ApplicationSettings.SettingsCommand" />
+          <AitFeature Name="Windows.UI.ApplicationSettings.SettingsPane.getForCurrentView" />
+          <AitFeature Name="document.getElementById" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="contactPicker.js" Id="0000d126eb7ae49865e51817912f272cdd1d50f727cf">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.List" />
+          <AitFeature Name="WinJS.Resources.processAll" />
+          <AitFeature Name="WinJS.UI.Pages.define" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.Contact" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactField" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactFieldCategory.none" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactFieldCategory.work" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactFieldType.email" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactFieldType.phoneNumber" />
+          <AitFeature Name="Windows.ApplicationModel.Contacts.ContactLocationField" />
+          <AitFeature Name="Windows.Foundation.Uri" />
+          <AitFeature Name="Windows.Storage.ApplicationData.current.roamingSettings" />
+          <AitFeature Name="Windows.Storage.Streams.RandomAccessStreamReference.createFromUri" />
+          <AitFeature Name="document.getElementById" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="mapPage.html" Id="0000d44f29aaa893aed74231ee51002f6e28865fc5ce">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Binding.Template" />
+          <AitFeature Name="WinJS.UI.GridLayout" />
+          <AitFeature Name="WinJS.UI.ListView" />
+          <AitFeature Name="WinJS.UI.SelectionMode.single" />
+          <AitFeature Name="WinJS.UI.TapBehavior.directSelect" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="0000e5b21e292bf2abbb435b42dc9079dfd9568581ed">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.UI.AppBarCommand" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout" />
+          <AitFeature Name="WinJS.UI.SettingsFlyout.show" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

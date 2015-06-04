@@ -1,0 +1,367 @@
+﻿html, body {
+    height: 100%;
+    padding: 0;
+}
+
+#retrievingDataProgress {
+    position: relative;
+    display: none;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+
+#mapContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#mapDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.errorMessage {
+    color: red;
+    display: none;
+}
+
+.zoom {
+    position: absolute;
+    left: 10px;    
+    width: 40px;
+    height: 40px;
+
+    border: 3px solid #7E7E7E;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: #7E7E7E;
+    font-size: 25px;
+    font-weight: bold;
+}
+    .zoom:hover {
+        background-color: lightgray;
+    }
+
+    .zoom:active {
+        background-color: #7E7E7E;
+        color: white;
+    }
+
+    .zoom.zoomIn {
+        top: calc(50% - 35px); 
+    }
+
+    .zoom.zoomOut {
+        top: calc(50% + 35px); 
+    }
+
+.locationError {
+    display: none;
+    position:  absolute;
+    left: 160px;
+    bottom: 88px;
+    width: 300px;
+        
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+.locationErrorDetails {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+
+.mapOverlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+hr.win-command {
+   background-color: white;   
+}
+
+/**
+ * List View
+ */
+
+#apothekenListView {
+    position: relative;
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 103px;    
+
+    background-color: #7C7C7C;
+}
+
+.listItemTemplate {
+    width: 280px;    
+    border-left: 1px solid #BBBBBB;
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    
+    padding-top: 8px;
+    margin-top: 10px;
+    margin-right: 0px;
+
+    overflow: hidden;
+}
+
+.listItemTemplate .name {
+    font-size: 24px;
+    font-weight: normal;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.listItemTemplate .distance {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.win-container:not(.footprint):not(.hover)
+{
+    background-color: transparent;
+}
+
+.win-selectioncheckmark {
+    display: none;
+}
+
+.win-selectionstylefilled.win-listview .win-selected {
+    opacity: 1.0;
+}
+
+.win-selectionstylefilled.win-listview .win-selected .win-selectionbackground {
+    background-color: #7C7C7C;
+}
+
+.win-selectionstylefilled.win-listview .win-selected:hover .win-selectionbackground {
+    background-color: rgb(163, 163, 163);
+}
+
+/**
+ * END; List View
+ */
+
+/**
+ * START: Apotheken Details
+ */
+
+.apothekenDetails {
+	background-color: #7C7C7C;
+	position: absolute;
+    top: 0px;
+	left: 0px;    
+    width: 100%;
+    z-index: 2;
+    padding: 20px;
+	
+	font-size: 18px;
+	font-weight: normal;
+}
+
+    .apothekenDetails p {
+	    font-weight: normal;
+    }
+
+    .apothekenDetails .button {
+	    width: 210px;
+	    margin-top: 17px;
+        background-color: #4d4d4d;
+        border-color: #4d4d4d;
+        color: white;
+    }
+
+    .apothekenDetails .button:hover {
+        background-color: #A7A7A7;
+        border-color: #A7A7A7;
+    }
+	
+	.apothekenDetails .button:active {
+        background-color: white;
+        border-color: white;
+        color: #505050;
+    }
+
+    .apothekenDetails .button:disabled {	    
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, 0.4);
+        color: rgba(255, 255, 255, 0.4);
+
+        background-image: url("/images/check.png");
+        background-origin: content-box;
+        background-position-x: right;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+
+    .apothekenDetails .button.top {
+	    margin-top: 30px;
+    }   
+
+    .apothekenDetails .detailName {
+	    font-size: 24px;
+    }
+
+    .apothekenDetails .detailDistance {
+	    font-size: 16px;
+    }
+
+    .apothekenDetails .dataField {
+	    font-weight: 200;
+    }
+
+    .apothekenDetails .section {
+	    height: 100%;
+        display: inline-block;
+        vertical-align: top;
+	    margin-right: 25px;
+    }
+
+    .apothekenDetails .section.name {
+        padding-right: 30px;
+		border-right: 1px solid #B7B7B7;
+    }
+
+    .apothekenDetails .section.centre {        
+        padding-right: 30px;
+	    min-width: 256px;        
+		border-right: 1px solid #B7B7B7;
+    }
+
+    .apothekenDetails  .section.notdienst {        
+        padding-right: 30px;	
+		width: 220px;
+	}
+
+	.apothekenDetails .heading {
+		display: block;	
+		margin-bottom: 3px;	
+		font-size: 18px;
+	}
+
+	.apothekenDetails .time {
+		font-size: 18px;
+		font-weight: normal;
+		padding-left: 3px;
+		
+		float: right;
+	}
+
+/**
+ * END: Apotheken Details
+ */
+
+/* START: Infobox CSS Rules*/
+
+.Infobox2 {
+   height: auto;
+   margin-left: -3px;
+   top: -26px;
+   overflow: hidden;
+}
+
+.Infobox2 .infobox-body {
+    background-image: url("/images/icon_adressfeld.jpg");
+    background-repeat:no-repeat;
+    background-color: rgb(51, 51, 51);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;    
+    background-size: auto;
+    border-bottom-color: rgb(114, 114, 114);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(114, 114, 114);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(114, 114, 114);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(114, 114, 114);
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: rgb(187, 187, 187);
+    font-family: Arial,Sans-Serif;
+    font-size: 21px;
+    padding-bottom: 9px;
+    padding-left: 69px;
+    padding-right: 12px;
+    padding-top: 9px;
+    white-space: nowrap;    
+    
+}
+
+.Infobox2 .infobox-icon {
+    margin-left: 7px;
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("/images/InfoboxIcon.png");
+    background-repeat:no-repeat;
+}
+
+.Infobox2 .infobox-icon:hover {
+    background-image: url("/images/InfoboxIcon_hover.png");
+}
+
+.Infobox2 .infobox-stalk {
+   background-attachment: scroll;
+   background-clip: border-box;
+   background-color: transparent;
+   background-image: url("///Bing.Maps.JavaScript/images/Infobox/darkinfoboxPointer.png");
+   background-origin: padding-box;
+   background-position-x: 0%;
+   background-position-y: 0%;
+   background-repeat: no-repeat;
+   background-size: auto;
+   bottom: 1px;
+   height: 38px;
+   position: relative;
+   width: 29px;
+   left: 0px;
+}
+
+/* END: Infobox CSS Rules*/
+
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .apothekenDetails {
+        display: none;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

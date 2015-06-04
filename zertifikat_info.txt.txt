@@ -1,0 +1,7 @@
+aktuell wird ein Testzertifikat für ein Release verwendet:
+
+Zertifikat Publisher-ID: CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6.
+Herausgeber ID (im Store) und Publisher ID müssen immer gleich sein
+
+pw:aperto
+

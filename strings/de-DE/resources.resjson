@@ -1,0 +1,52 @@
+﻿// For details on localizing a Windows app, see: http://go.microsoft.com/fwlink/?LinkId=212836
+
+{
+    // default
+    "find_address" : "Nach Adresse suchen",
+    "recommend_title" : "ABDA Apotheken-Finder",
+    "recommend_description" : "Wenn Ihnen der Apotheken- Finder gefällt freuen wir uns über eine Weiterempfehlung an Freunde und Bekannte.",
+    "recommend_html" : "<p>Hallo, ich verwende für die Apotheken- und Notdienstapothekensuche die Windows Store Applikation \"Apotheken der ABDA\" und möchte sie Dir empfehlen.</p><p>Hilfe bei der Suche nach einer Apotheke bekommst Du auch wenn Du die 22833 (69 ct Min) anrufst, eine SMS mit \"apo\" an die 22833 (69 ct/SMS) sendest oder im mobilen Web unter 22833.mobi.</p><p>Liebe Grüße,</p>",
+    "recommend_apotheke_html" : "<p>Hallo, ich würde dir gerne die folgende Apotheke empfehlen:</p><p>{0}</p><p>Ich habe sie über die Windows Store Applikation \"Apotheken der ABDA\" gefunden.</p><p>Hilfe bei der Suche nach einer Apotheke bekommst Du auch wenn Du die 22833 (69 ct Min) anrufst, eine SMS mit \"apo\" an die 22833 (69 ct/SMS) sendest oder im mobilen Web unter 22833.mobi.</p><p>Liebe Grüße,</p>",
+
+    "cmdNotdienst_label" : "Notdienst",
+    "cmdNotdienst_tooltip" : "Notfalldienste sind nur außerhalb der regulären Öffnungszeiten geöffnet.",
+    "cmdRegular_label" : "Apotheken",
+    "cmdRegular_tooltip" : "Apotheken sind nur während der regulären Öffnungszeiten geöffnet.",
+    "cmdUseLocation_label" : "Orten",
+    "cmdUseLocation_tooltip" : "Standord ermitteln und Apotheken in der Nähe suchen",
+    "cmdRecommend_label" : "Empfehlen",
+    "cmdRecommend_tooltip" : "Apothekenfinder weiterempfehlen",
+    
+    "recommend_us" : "Wenn Ihnen der Apotheken- Finder gefällt freuen wir uns über eine Weiterempfehlung an Freunde und Bekannte.",
+    "click_recommend" : "Klicken Sie auf \"Weiterempfehlen\" und teilen Sie einen Link zur Windows Store App.",
+
+    // mapPage
+    "data_expired" : "Die Notdienstzeiten sind möglicherweise nicht mehr aktuell. Möchten Sie die Notdienstzeiten aktualisieren?",
+    "refresh" : "Aktualisieren",
+    "ok" : "OK",
+    "cancel" : "Abbrechen",
+    "error_location_unavailable_title" : "Standort nicht verfügbar",
+    "error_location_unavailable_description" : "Ihr Standort kann nicht bestimmt werden, da die Standortbestimmung deaktiviert ist. Um die Standortbestimmung zu aktivieren öffnen Sie den Einstellungen-Charm und dann \"Berechtigungen\". Sie können auch über den Suchen-Charm nach einer Adresse suchen.",
+    "error_location_error_title" : "Standortbestimmung nicht möglich",
+    "error_location_error_description" : "Ihr Standort kann momentan leider nicht bestimmt werden. Bitte versuchen Sie es später noch einmal.",
+    "error_refresh_data_failed_title" : "Aktualisierung fehlgeschlagen",
+    "error_refresh_data_failed_description" : "Die Daten konnten leider nicht abgerufen werden. Bitte überprüfen Sie ihre Internetverbindung oder versuchen Sie es später noch einmal.",
+    "show_apotheke_info" : "Informationen zur Apotheke anzeigen",
+
+    "closeDetailsButton_tooltip" : "Informationen zur Apotheke schließen",
+    "addContactButton_label" : "Kontakt hinzufügen",
+    "addContactButton_tooltip" : "Adresse der Apotheke zu Kontakten hinzufügen",
+    "drivingDirectionsButton_label" : "Route berechnen",
+    "drivingDirectionsButton_tooltip" : "Wegbeschreibung auf Googlemaps anzeigen",
+    "zoom_in_tooltip" : "zoom in",
+    "zoom_out_tooltip" : "zoom out",
+    "leave_app" : "Die Webbeschreibung wird auf googlemaps.com angezeigt. Dazu verlassen Sie vorübergehen die Apothenen-Finder App.",
+
+    //searchResults
+    "address_not_found" : "Die eingegebene Adresse wurde nicht gefunden.",
+    "search_not_available" : "Die Suche steht momentan leider nicht zur Verfügung. Bitte überprüfen Sie ihre Internetverbindung oder versuchen Sie es später noch einmal.",
+
+    //contactPicker
+    "no_contacts" : "Sie haben noch keine Kontakte hinzugefügt.",
+    "howto_add_contacts" : "Um Kontakte hinzuzufügen, wählen Sie eine Apotheke aus, klicken Sie auf \"Details anzeigen\" und dann auf \"Kontakt hinzufügen\"."
+}

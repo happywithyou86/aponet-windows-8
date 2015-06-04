@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ja-ploc"
+"ResourceDimensions"		"language-ja-ploc-jp"
+
+[Files]
+"C:\Users\roxana.bucura\Documents\Aponet_Windows8\aponet_windows_8\bld\Release\split.language-ja-ploc.pri"			"resources.pri"

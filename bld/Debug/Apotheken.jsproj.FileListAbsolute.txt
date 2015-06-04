@@ -1,0 +1,34 @@
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bin\Debug\ReverseMap\resources.pri
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bin\Debug\AppxManifest.xml
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bin\Debug\Apotheken.build.appxrecipe
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bin\Debug\WindowsMapsHelper.winmd
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\Apotheken.jsprojResolveAssemblyReference.cache
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\priconfig.xml
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\priconfig.xml.intermediate
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\layout.resfiles
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\layout.resfiles.intermediate
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\resources.resfiles
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\resources.resfiles.intermediate
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\pri.resfiles
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\pri.resfiles.intermediate
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\qualifiers.txt
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\qualifiers.txt.intermediate
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\roxana.bucura\Documents\Bitbucket_Windows_8.1\aponet_8.1_windows_surface\bld\Debug\ProjectArchitectures.txt
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bin\Debug\ReverseMap\resources.pri
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bin\Debug\AppxManifest.xml
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bin\Debug\Apotheken.build.appxrecipe
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bin\Debug\WindowsMapsHelper.winmd
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\Apotheken.jsprojResolveAssemblyReference.cache
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\priconfig.xml
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\priconfig.xml.intermediate
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\layout.resfiles
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\layout.resfiles.intermediate
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\resources.resfiles
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\resources.resfiles.intermediate
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\pri.resfiles
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\pri.resfiles.intermediate
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\qualifiers.txt
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\qualifiers.txt.intermediate
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\roxana.bucura\Desktop\Aponet\Windows 8.1\aponet-windows-8\bld\Debug\ProjectArchitectures.txt

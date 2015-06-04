@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="ApertoMoveGmbH.ApothekenderABDA" Version="1.0.0.4" Publisher="CN=72430CE4-97E3-4850-81D1-AB8545FCF3A6" />
+  <Properties>
+    <DisplayName>Apotheken der ABDA</DisplayName>
+    <PublisherDisplayName>Aperto Move GmbH</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Apotheken der ABDA" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Apotheken" ForegroundText="light" BackgroundColor="#7C7C7C">
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#FFFFFF" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+        <Extension Category="windows.contactPicker" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
+  </Capabilities>
+</Package>

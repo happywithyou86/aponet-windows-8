@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferenceCachePath>C:\Users\roxana.bucura\AppData\Local\Temp\Apotheken_refcache</ReferenceCachePath>
+    <ShowAllFiles>true</ShowAllFiles>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
+    <RemoteMachine0>172.18.3.35:4018 %28Apertomove%29</RemoteMachine0>
+    <UseAuthentication0>False</UseAuthentication0>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <MachineName>172.18.3.35:4018</MachineName>
+    <RequireAuthentication>false</RequireAuthentication>
+    <DebuggerType>Mixed</DebuggerType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <MachineName>172.18.3.35:4018</MachineName>
+    <RequireAuthentication>false</RequireAuthentication>
+    <DebuggerType>Script</DebuggerType>
+    <AllowLocalNetworkLoopback>false</AllowLocalNetworkLoopback>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <MachineName>172.17.0.35:4018</MachineName>
+    <RequireAuthentication>false</RequireAuthentication>
+  </PropertyGroup>
+</Project>
